@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
 .d-none{
     display: none;
 }
@@ -17,35 +12,24 @@
 }
 
 
-.logo {
+nav{
     display: flex;
-    color: white;
-    width: 100%;
     background-color: blue;
+}
+.logo{
+    width: 100%;
+    padding:  12px 16px;
+}
+nav a{
+    color: white;
     text-decoration: none;
     list-style: none;
-
 }
-.logo, .left{
-
-    float: left;
-    align-items: center;
-
-}
-.logo, .right{
+ul{
     display: flex;
-    float: right;
+    width: 45%;
+    text-align: center;
     justify-content: space-between;
-    align-items: center;
-
-  
-}
-nav li {
-    justify-content: space-between;
-    padding: 12px 16px;
-   
-}
-.right li a{
-    color: white;
-    text-decoration: none;
+    list-style: none;
+    padding:  12px 16px;
 }
