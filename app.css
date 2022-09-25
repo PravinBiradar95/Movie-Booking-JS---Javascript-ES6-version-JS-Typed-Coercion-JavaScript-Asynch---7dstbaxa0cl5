@@ -37,9 +37,15 @@
     float: right;
     justify-content: space-between;
     align-items: center;
+
   
 }
-nav li{
+nav li {
     justify-content: space-between;
-    padding: 12px;
+    padding: 12px 16px;
+   
+}
+.right li a{
+    color: white;
+    text-decoration: none;
 }
