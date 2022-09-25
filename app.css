@@ -10,10 +10,6 @@
 .v-none{
     visibility: hidden;
 }
-body{
-    background-color: black;
-}
-
 nav{
     display: flex;
     background-color: blue;
@@ -31,6 +27,7 @@ nav a{
 }
 ul{
     display: flex;
+    display: inline-flexbox;
     width: 50%;
     justify-content: space-evenly;
     list-style: none;
