@@ -10,7 +10,7 @@ let main = document.querySelector("main");
 let bookTicketBtn = document.getElementById("book-ticket-btn");
 let h3Div = document.querySelector(".v-none");
 let booker = document.getElementById("booker");
-bookTicketBtn.addEventListener('click', e=> checkout(e, seats));
+bookTicketBtn.addEventListener('click', (e)=> checkout(e, seats));
 let numberOfSelected = 0;
 document.body.style.opacity = 0.4;
 
